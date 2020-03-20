@@ -1,0 +1,7 @@
+
+SALARY IN (100,000)
+>loop over each tax bracket 
+	 > take salary subtract minSalary
+	 > constrain to within (0 to (maxSalary-minSalary))
+	 > check exceptions and set rate to exception_rate * 20
+	 > take modified salary and multiply by rate and add to tax_amount

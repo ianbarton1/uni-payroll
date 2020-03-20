@@ -1,0 +1,59 @@
+/*
+
+border 007251
+table line a adc822
+table line b 684d94
+background 7cbfb7
+ */
+
+body {
+  background-color: #7bb079;
+}
+
+#employee_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.bg_1 {
+  background-color: #437042;
+  color: white;
+  margin: 20px;
+}
+
+.employee_picture_box {
+  padding: 20px;
+  min-width: 370px;
+}
+
+.bg_2 {
+  background-color: #3c643b;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  margin-top:30px;
+  padding-top: 30px;
+}
+
+
+#employee_table td, #employee_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#employee_table tr:nth-child(odd){background-color: #c0d9bf;}
+#employee_table tr:nth-child(even){background-color: #f2f2f2;}
+#employee_table .search_hit {background-color: #adc822;}
+#employee_table tr:hover {background-color: #adc822;}
+/* employee table with search hit */
+
+#employee_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #007251;
+  color: white;
+}
+
+.employee_text_1 {
+  font-family: Roboto;
+  font-size: 1.5rem;
+}
